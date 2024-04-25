@@ -136,7 +136,7 @@ body {
 .contactme__icons{ 
     display: flex;
     flex-direction: row;
-    padding-bottom: 120px;
+    
 }
 
 .contactme__social__img{
@@ -148,6 +148,13 @@ body {
     transform: scale(1.2);
 }
 
+.credits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+}
 /* FOOTER */
 .footer {
     text-align: center;
