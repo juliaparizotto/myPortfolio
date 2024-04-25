@@ -91,6 +91,7 @@ body {
 .blender {
     display: flex;
     justify-content: center;
+    padding-bottom: 3px;
 }
 
 .blender__container {
@@ -147,7 +148,6 @@ body {
 .wrapper {
     display: flex;
     align-items: right;
-    padding-left: 50px;
     padding-top: 25px;
     padding-bottom: inherit;
 }
@@ -164,7 +164,7 @@ body {
 }
 
 .grid .card {
-    height: 250px;
+    height: 26vh;
     width: 250px;
     list-style-type: none;
     background-color: #fff;
@@ -180,6 +180,7 @@ body {
     background-color: #eccdd8;
     width: 158px;
     height: 158px;
+    margin-top: 10px;
     border-radius: 10%;
 }
 
@@ -219,5 +220,4 @@ body {
 /* FOOTER */
 .footer {
     text-align: center;
-    padding: 10px 0;
 }

@@ -90,6 +90,7 @@ body {
 .uiux {
     display: flex;
     justify-content: center;
+    padding-bottom: 3px;
 }
 
 .uiux__container {
@@ -102,8 +103,6 @@ body {
     max-width: 1800px;
     height: 90vh;
     background: linear-gradient(90deg, #F2E3D8 0%, #E9DBE8 25%, #ECDEE3 50%, #D8EFE5 75%, #E0DFEE 100%);
-
-
     border-radius: 20px;
 }
 
@@ -147,7 +146,6 @@ body {
     display: flex;
     align-items: center;
     align-items: right;
-    padding-left: 50px;
     padding-bottom: inherit;
 }
 
@@ -213,5 +211,4 @@ body {
 /* FOOTER */
 .footer {
     text-align: center;
-    padding: 10px 0;
 }

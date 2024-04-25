@@ -98,7 +98,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    padding: 30px 30px 30px 100px;
     width: 95%;
     max-width: 1800px;
     height: 90vh;
@@ -109,7 +109,8 @@ body {
 .aboutme__wrapper {
     display: flex;
     flex-direction: row;
-    margin: 0 100px 0 100px;
+    gap: 10vh;
+    padding-bottom: 3px;
 }
 
 .aboutme__text-container {
@@ -144,7 +145,6 @@ body {
     display: flex;
     flex-direction: row;
     gap: 150px;
-    margin-left: 300px;
 }
 
 .aboutme__column-left {
@@ -183,5 +183,4 @@ h2 {
 
 .footer {
     text-align: center;
-    padding: 10px 0;
 }
