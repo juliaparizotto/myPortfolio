@@ -41,7 +41,7 @@ body {
     max-width: 1800px;
 }
 
-.header__menu{
+.header__menu {
     display: flex;
     gap: 20px;
 }
@@ -53,6 +53,18 @@ body {
 
 .header__anchor {
     transition: 0.3s;
+}
+
+.header__anchor:active {
+    color: #000;
+}
+
+.header__anchor:visited {
+    color: #000;
+}
+
+.header__anchor:-webkit-any-link {
+    color: #000;
 }
 
 .header__anchor:hover {
