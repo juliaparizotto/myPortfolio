@@ -1,0 +1,211 @@
+/* FONTE */
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url("assets/fonts/CaviarDreams.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Chistoso";
+    src: url("assets/fonts/Chistoso-Regular.ttf") format("truetype");
+}
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* GLOBAL STYLES */
+body {
+    font-family: "Caviar Dreams";
+    margin: 0;
+    color: #000000;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1800px;
+}
+
+.header__menu{
+    display: flex;
+    gap: 20px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__anchor {
+    transition: 0.3s;
+}
+
+.header__anchor:hover {
+    transform: scale(1.1);
+}
+
+.header__logo {
+    color: #000;
+    text-align: center;
+    font-family: "Caviar Dreams";
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.025rem;
+    text-transform: uppercase; 
+}
+
+
+/* CONTENT */
+
+.blender {
+    display: flex;
+    justify-content: center;
+}
+
+.blender__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    width: 95%;
+    max-width: 1800px;
+    height: 90vh;
+    background: linear-gradient(90deg, #E0DFEE 0%, #F2E3D8 25%, #ECDEE3 50%, #E9DBE8 75%, #D8EFE5 100%);
+    border-radius: 20px;
+}
+
+.blender__wrapper {
+    max-width: 50%;
+    gap: 20px;
+}
+
+.blender__title {
+    color: #072E20; 
+    font-size: 4rem; 
+    font-family: "Chistoso"; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+
+.blender__subtitle {
+    color: #072E20; 
+    font-size: 2rem; 
+    font-family: "Caviar Dreams"; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    padding-bottom: 10px;
+}
+.blender__text {
+    color: #072E20; 
+    font-size: 1rem; 
+    font-family: "Caviar Dreams"; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    padding-right: 70px;
+}
+
+.blender__hover{
+    display: flex;
+    font-size: 2rem; 
+    padding-top: 60px;
+}
+
+/* GRID */
+
+.wrapper {
+    display: flex;
+    align-items: right;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: inherit;
+}
+
+.grid{
+    display: flex;
+    gap: 60px;
+}
+
+.grid :where(.card, .img) {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.grid .card {
+    height: 250px;
+    width: 250px;
+    list-style-type: none;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .img{
+    background-color: #eccdd8;
+    width: 158px;
+    height: 158px;
+    border-radius: 10%;
+}
+
+.card .img img{
+    width: 148px;
+    height: 148px;
+    object-fit: cover;
+    border-radius: 10%;
+    border: 4px solid #fff;
+}
+
+.card h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 30px 0 5px;
+}
+
+.grid__column-right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.grid__column-left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.img {
+    transition: 0.3s;
+}
+.img:hover {
+    transform: scale(2);
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+}

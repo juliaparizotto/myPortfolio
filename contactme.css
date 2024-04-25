@@ -1,0 +1,143 @@
+/* FONTE */
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url("assets/fonts/CaviarDreams.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Chistoso";
+    src: url("assets/fonts/Chistoso-Regular.ttf") format("truetype");
+}
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* GLOBAL STYLES */
+body {
+    font-family: "Caviar Dreams";
+    margin: 0;
+    color: #000000;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1800px;
+}
+
+.header__menu{
+    display: flex;
+    gap: 20px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__anchor {
+    transition: 0.3s;
+}
+
+.header__anchor:hover {
+    transform: scale(1.1);
+}
+
+.header__logo {
+    color: #000;
+    text-align: center;
+    font-family: "Caviar Dreams";
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.025rem;
+    text-transform: uppercase; 
+}
+
+/* MAIN */
+.contactme {
+    display: flex;
+    justify-content: center;
+}
+
+.contactme__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    width: 95%;
+    max-width: 1800px;
+    height: 90vh;
+    background: linear-gradient(90deg, #F2E3D8 0%, #ECDEE3 25%, #D8EFE5 50%, #E9DBE8 75%, #E0DFEE 100%);
+    border-radius: 20px;
+}
+
+.contactme__texts{
+    text-align: center;
+}
+
+.contactme__title {
+    color: #072E20; 
+    font-size: 4rem; 
+    font-family: "Chistoso"; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+
+.contactme__subtitle {
+    color: #072E20; 
+    font-size: 1.3rem; 
+    font-family: "Caviar Dreams"; 
+    font-weight: 700; 
+    word-wrap: break-word;
+    padding-bottom: 10px;
+}
+.contactme__text {
+    color: #072E20; 
+    font-size: 1.2rem; 
+    font-family: "Caviar Dreams"; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    padding-right: 70px;
+}
+
+.contactme__icons{ 
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 120px;
+}
+
+.contactme__social__img{
+    transition: 0.3s;
+    margin: 0 50px;
+}
+
+.contactme__social__img:hover {
+    transform: scale(1.2);
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+}

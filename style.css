@@ -1,0 +1,127 @@
+/* FONTE */
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url("assets/fonts/CaviarDreams.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Chistoso";
+    src: url("assets/fonts/Chistoso-Regular.ttf") format("truetype");
+}
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* GLOBAL STYLES */
+body {
+    font-family: "Caviar Dreams";
+    margin: 0;
+    color: #000000;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1800px;
+}
+
+.header__menu{
+    display: flex;
+    gap: 20px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__anchor {
+    transition: 0.3s;
+}
+
+.header__anchor:hover {
+    transform: scale(1.1);
+}
+
+.header__logo {
+    color: #000;
+    text-align: center;
+    font-family: "Caviar Dreams";
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.025rem;
+    text-transform: uppercase; 
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    max-width: 1800px;
+    height: 90vh;
+    background: linear-gradient(45deg, #D6F2E3 -0.09%, #E3D6F2 49.91%, #F2E3D6 99.91%);
+    border-radius: 20px;
+}
+
+.hero__title {
+    color: #072E20; 
+    font-size: 140px; 
+    font-family: "Chistoso"; 
+    font-weight: 700; 
+    letter-spacing: 19.60px; 
+    word-wrap: break-word;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero__name {
+    font-size: 2rem;
+    font-weight: 400;
+    position: absolute;
+    top: 57%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.hero__bg{
+    position: relative;
+    text-align: center;
+    max-width: 75%;
+    max-height: 80%;
+    -webkit-transition: -webkit-transform 2.5s;
+}
+
+.hero__bg:hover {
+    -webkit-transform: rotate(360deg) translateZ(0);
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+}

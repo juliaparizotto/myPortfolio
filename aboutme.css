@@ -1,0 +1,175 @@
+/* FONTE */
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url("assets/fonts/CaviarDreams.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Chistoso";
+    src: url("assets/fonts/Chistoso-Regular.ttf") format("truetype");
+}
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* GLOBAL STYLES */
+body {
+    font-family: "Caviar Dreams";
+    margin: 0;
+    color: #000000;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1800px;
+}
+
+.header__menu{
+    display: flex;
+    gap: 20px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__anchor {
+    transition: 0.3s;
+}
+
+.header__anchor:hover {
+    transform: scale(1.1);
+}
+
+.header__logo {
+    color: #000;
+    text-align: center;
+    font-family: "Caviar Dreams";
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.025rem;
+    text-transform: uppercase; 
+}
+
+
+/* CONTENT */
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    width: 95%;
+    max-width: 1800px;
+    height: 90vh;
+    background: linear-gradient(90deg, #E0DFEE 0%, #F2E3D8 25%, #ECDEE3 50%, #E9DBE8 75%, #D8EFE5 100%);
+    border-radius: 20px;
+}
+
+.aboutme__wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 100px 0 100px;
+}
+
+.aboutme__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme__title {
+    color: #072E20;
+    font-family: "Chistoso";
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.aboutme__hello {
+    color: #072E20;
+    font-family: "Caviar Dreams";
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.aboutme__text {
+    font-family: "Caviar Dreams";
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.aboutme__skills {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin-left: 300px;
+}
+
+.aboutme__column-left {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.aboutme__column-right {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    min-width: 350px;
+}
+
+.aboutme__skills-group {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.curso {
+    font-family: "Caviar Dreams";
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+}
